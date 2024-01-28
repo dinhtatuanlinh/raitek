@@ -12,7 +12,6 @@ $page = get_page_by_title( 'video banner' ) ;
 // echo '</pre>';
 ?>
 <div id="blog-banner">
-    <img src="<?php echo DTTL_THEME_URL_IMG; ?>/1.jpg" alt="">
     <h1 class="cattitle"><?php echo get_the_category()[0]->name; ?></h1>
 </div>
 

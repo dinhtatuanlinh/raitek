@@ -77,8 +77,8 @@ $upload_dir = wp_upload_dir();
 
     <div id="application">
       <h2>ỨNG DỤNG ĐIỆN MẶT TRỜI TRONG ĐỜI SỐNG</h2>
-      <video id="video" muted>
-        <source src="<?php echo DTTL_THEME_URL_VIDEO; ?>/WEB RAI EPC.mp4" type="video/mp4" />
+      <video id="video" muted playsinline>
+        <source src="<?php echo DTTL_THEME_URL_VIDEO; ?>/Video đầu trang EPC - Lắp đặt.mp4" type="video/mp4" />
       </video>
     </div>
 

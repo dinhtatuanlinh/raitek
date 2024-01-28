@@ -45,7 +45,7 @@
       <div id="top">
         <div id="logo">
           <a href="<?php echo get_home_url(); ?>">
-            <img src="<?php echo DTTL_THEME_URL_IMG; ?>/LOGO-RAITEK bo canh-05 3.png" alt="raitex" />
+            <img src="<?php echo DTTL_THEME_URL_IMG; ?>/LOGO-RAITEK ngang-02.png" alt="raitex" />
           </a>
         </div>
         <div class="center"></div>

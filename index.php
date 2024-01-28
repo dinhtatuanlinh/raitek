@@ -15,7 +15,7 @@ $page = get_page_by_title( 'video banner' ) ;
 
 
 <div id="video-banner">
-        <video id="video" muted>
+        <video id="video" muted playsinline>
           <source src="<?php echo get_post_meta( $page->ID, "video" )[0]; ?>" type="video/mp4" />
         </video>
         <!-- <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Hero Section.png" alt="" /> -->
@@ -366,11 +366,13 @@ $page = get_page_by_title( 'video banner' ) ;
                 $except = get_the_excerpt();
             ?>
             <div class="item w3-col">
-                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" />
+                <div class="img">
+                  <a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" /></a>
+                </div>
+                
                 <div class="box">
-                  <h3><?php the_title(); ?></h3>
+                  <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
                   <p>Published on: </br> <?php the_date() ; ?></p>
-                  <a href="<?php the_permalink(); ?>">Xem Thêm</a>
                 </div>
             </div>
 
