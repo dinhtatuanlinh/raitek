@@ -4,7 +4,8 @@ get_header('top');
 $upload_dir = wp_upload_dir();
 
 $page = get_page_by_title( 'video banner' ) ;
-
+$category_detail=get_the_category(get_the_ID());
+$categoryName = $category_detail[0]->name;
 // echo '<pre style="color: #000">';
 // print_r(get_page_by_title( 'video banner' ));
 // print_r($page->ID);
@@ -36,7 +37,7 @@ $page = get_page_by_title( 'video banner' ) ;
                     'post_type' => 'post',
                     // 'number' => '8',
                     'numberposts'      =>8 ,
-                    'category'         => 0,
+                    'category_name' => $categoryName,
                     'orderby'          => 'rand',
                     'order' => 'DESC',
                 );
@@ -50,11 +51,13 @@ $page = get_page_by_title( 'video banner' ) ;
                 
             ?>
             <div class="item w3-col">
-              <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" />
+              <div class="img">
+                  <a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" /></a>
+              </div>
+              
               <div class="box">
-                <h3><?php the_title(); ?></h3>
+              <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
                 <p>Published on: </br> <?php the_date() ; ?></p>
-                <a href="<?php the_permalink(); ?>">Readmore</a>
               </div>
             </div>
             <?php

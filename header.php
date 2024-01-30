@@ -19,8 +19,8 @@
     <meta property="og:title" content="Trang chủ" />
     <meta property="og:description" content="" />
     <meta property="og:url" content="" />
-    <meta property="og:site_name" content="Raitex" />
-    <meta property="og:title" content="Raitex">
+    <meta property="og:site_name" content="Raitek" />
+    <meta property="og:title" content="Raitek">
     <meta property="og:image" content="<?php echo DTTL_THEME_URL_IMG; ?>/logos/favicon.png" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">

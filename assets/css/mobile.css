@@ -252,12 +252,11 @@
     }
 
     #why h2 {
-        font-size: 1.2rem;
-        line-height: 30px;
         margin: 0;
         color: #fff;
         margin-top: 39.35px;
         text-align: center;
+        font-size: 25px;
         font-weight: 600;
     }
 
@@ -304,10 +303,9 @@
 
     #services h2 {
         width: 80%;
-        font-size: 1.2rem;
-        line-height: 30px;
         margin: 15px 0 10px;
         text-align: center;
+        font-size: 25px;
         font-weight: 600;
         font-family: helve, "Helvetica Neue", Helvetica, sans-serif;
     }
@@ -382,9 +380,8 @@
 
     #numbers h2 {
         width: 80%;
-        font-size: 1.2rem;
-        line-height: 30px;
         text-align: center;
+        font-size: 25px;
         font-weight: 600;
         color: #fff;
         margin: 20px 0;
@@ -436,9 +433,9 @@
 
     #partner h2 {
         width: 80%;
-        font-size: 2rem;
         line-height: 50px;
         text-align: center;
+        font-size: 25px;
         font-weight: 600;
         margin: 20px 0;
         font-family: helve, "Helvetica Neue", Helvetica, sans-serif;
@@ -470,11 +467,11 @@
 
     #projects h2 {
         width: 80%;
-        font-size: 1.8rem;
         line-height: 50px;
         margin: 0;
         margin-top: 39.35px;
         text-align: center;
+        font-size: 25px;
         font-weight: 600;
         margin: 40px 0;
     }
@@ -529,6 +526,8 @@
 
     #news h2 {
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #news .wrapper {
@@ -588,13 +587,13 @@
 
     #experience h2 {
         width: 70%;
-        font-size: 1.5rem;
         margin: 0;
         margin-top: 39.35px;
-        text-align: center;
-        font-weight: 600;
         margin: 40px 0 0;
         color: #fff;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #experience .wrapper {
@@ -720,10 +719,10 @@
         color: #fff;
         width: 300px;
         height: 300px;
+        padding: 80px 20px 0;
         text-align: center;
         font-size: 25px;
-        padding: 80px 20px 0;
-
+        font-weight: 600;
     }
 
     #potential-risk .wrapper .item p {
@@ -751,10 +750,11 @@
     }
 
     #expectation div h2 {
-        text-align: center;
         padding: 20px 10px;
         color: #fff;
-        font-size: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #expectation>div .box {
@@ -798,6 +798,8 @@
 
     #operator h2 {
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #operator .wrapper {
@@ -862,7 +864,11 @@
         align-items: center;
         flex-direction: column;
     }
-
+    #maintenance h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
     #maintenance .wrapper {
         width: 100%;
         padding: 20px;
@@ -903,6 +909,15 @@
         transform: translateX(-50%);
         line-height: 40px;
 
+    }
+    #maintenance .deep-maintenance .item{
+        width: 100%;
+    }
+    #maintenance .deep-maintenance .item .subitem{
+        width: 100%;
+    }
+    #maintenance .deep-maintenance .item .subitem img{
+        width: 100%;
     }
     #commitment {
         display: flex;
@@ -997,10 +1012,11 @@
     }
 
     #when h2 {
-        text-align: center;
         color: #fff;
         margin: 0;
-        font-size: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
         padding: 70px 0 120px;
     }
 
@@ -1060,9 +1076,10 @@
 
     #conclusion h2 {
         color: #fff;
-        text-align: center;
         padding: 10px;
+        text-align: center;
         font-size: 25px;
+        font-weight: 600;
     }
 
     #conclusion .wrapper {
@@ -1103,6 +1120,8 @@
 
     #commitment-consultance h2 {
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #commitment-consultance .wrapper .item {
@@ -1134,6 +1153,8 @@
 
     #device h2 {
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #device .wrapper .item {
@@ -1159,6 +1180,8 @@
 
     #safety h2 {
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #safety .wrapper {
@@ -1183,7 +1206,8 @@
 
     #application h2 {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #application video {
@@ -1198,8 +1222,9 @@
     }
 
     #trend h2 {
-        font-size: 20px;
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
 
     #trend .wrapper {
@@ -1230,6 +1255,8 @@
 
     #benefit h2 {
         text-align: center;
+        font-size: 25px;
+        font-weight: 600;
         padding: 20px;
     }
 
@@ -1259,6 +1286,9 @@
     }
     #process h2 {
         color: #fff;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
     #process .wrapper {
         padding: 10px
@@ -1313,7 +1343,8 @@
     }
     #blog h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: 600;
     }
     #blog .wrapper{
         text-align: justify;
@@ -1327,6 +1358,9 @@
     #page-partner .wrapper h2 {
         width: 100%;
         padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
     }
     #page-partner .wrapper p{
         width: 100%;

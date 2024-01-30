@@ -190,36 +190,41 @@ $upload_dir = wp_upload_dir();
           </div>
         </div>
         <h2>BẢO DƯỠNG CHUYÊN SÂU</h2>
-        <div class="wrapper w3-row-padding">
-          <div class="item w3-col l3 m3 s12">
+        <div class="wrapper deep-maintenance">
+          <div class="item">
             <div class="subitem">
-              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 800.png" alt="">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/thaythethaodo290x190.jpg" alt="">
               <p>Tháo dỡ và thay thế hệ điện mặt trời</p>
             </div>
+          </div>
+          <div class="item">
             <div class="subitem">
-              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 801.png" alt="">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/doluong290x290.jpg" alt="">
               <p>Đo lường I-V Curve</p>
             </div>
           </div>
-          <div class="item w3-col l3 m3 s12">
+          <div class="item">
             <div class="subitem">
-              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 791.png" style="height: 100%" alt="">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/quetnhiet290x 490.jpg" alt="">
               <p>Quét nhiệt tấm pin bằng drone</p>
             </div>
           </div>
-          <div class="item w3-col l3 m3 s12">
+          <div class="item">
             <div class="subitem">
-              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 792.png" style="height: 100%" alt="">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/lapdat290x490.jpg" alt="">
               <p>Lắp đặt hệ thống an toàn</p>
             </div>
           </div>
-          <div class="item w3-col l3 m3 s12">
+          <div class="item">
             <div class="subitem">
-              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 802.png" alt="">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/lapdatcamera290x340.jpg" alt="">
               <p>Lắp đặt Camera giám sát</p>
             </div>
+            
+          </div>
+          <div class="item">
             <div class="subitem">
-              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 803.png" alt="">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/docchiso290x140.jpg" alt="">
               <p>Đọc chỉ số đồng hồ hàng tuần/ tháng</p>
             </div>
           </div>
