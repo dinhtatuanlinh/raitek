@@ -667,6 +667,16 @@
     #experience .wrapper p textarea{
         width: 80%;
     }
+    #experience .wrapper #brochure {
+        width: 165px;
+        padding: 10px;
+    }
+    #experience .wrapper #brochure p{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
     #footer {
         background-color: #0a0e0e;
     }

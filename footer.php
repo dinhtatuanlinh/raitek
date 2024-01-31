@@ -7,15 +7,12 @@
         </h2>
         <div class="wrapper">
           <?php echo do_shortcode('[contact-form-7 id="0ae2db5" title="form"]'); ?>
-          <!-- <div class="box">
-            <img src="<?php echo DTTL_THEME_URL_ICON; ?>/icon footer-04.png" alt="" />
-            <input type="text" placeholder="Số điện thoại" />
+          <div id="brochure">
+            <a href="#">
+              <img src="<?php echo DTTL_THEME_URL_IMG; ?>/Rectangle 785.png" alt="brochure">
+            </a>
+            <p>Tài liệu chi tiết</p>
           </div>
-          <div class="box">
-            <img src="<?php echo DTTL_THEME_URL_ICON; ?>/icon footer-05.png" alt="" />
-            <input type="text" placeholder="E-mail" />
-          </div>
-          <button>Gửi</button> -->
         </div>
       </div>
       <div id="footer">
